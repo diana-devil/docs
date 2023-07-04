@@ -61,24 +61,7 @@ module.exports = [
         zIndex: 999999999, // z-index property of the canvas, default: 999999999
     }],
 
-    // 音乐插件
-    ['@vuepress-reco/vuepress-plugin-bgm-player',{
-        audios: [
-            // 本地文件示例
-            {
-                name: '장가갈 수 있을까',
-                artist: '咖啡少年',
-                url: '/bgm/1.mp3',
-                cover: '/bgm/1.jpg'
-            },
-            {
-                name: '장가갈 수 있을까',
-                artist: '着魔2',
-                url: '/bgm/2.mp3',
-                cover: '/bgm/1.jpg'
-            },
-        ]
-    }],
+
 
     // 可以添加第三方搜索链接的搜索框（原官方搜索框的参数仍可用）
     ['thirdparty-search', {
@@ -145,22 +128,133 @@ module.exports = [
     // }],
 
 
-    // 音乐插件  https://moefyit.github.io/moefy-vuepress/packages/meting.html#options
-    // ["meting", {
-    //     // 这个 API 是不可用的，只是作为示例而已
-    //     // metingApi: '',
-    //     meting: {
-    //         server: 'netease',
-    //         type: 'playlist',
-    //         mid: '6838211960',
-    //         auto: 'https://music.163.com/#/playlist?id=6838211960'
-    //     },
-    //     // 不配置该项的话不会出现全局播放器
-    //     aplayer: {
-    //         lrcType: 3,
-    //         autoplay: true
-    //     },
-    //     defaultCover: 'https://nyakku.moe/avatar.jpg',
-    // }],
+    // 音乐插件
+    ['@vuepress-reco/vuepress-plugin-bgm-player',{
+        audios: [
+            // 邓紫棋
+            {
+                name: 'FIND YOU',
+                artist: 'G_E_M_ 邓紫棋',
+                url: '/bgm/G_E_M_ 邓紫棋 - FIND YOU.ogg',
+                cover: '/bgm/GEM.jpg'
+            },
+            {
+                name: 'GLORIA',
+                artist: 'G_E_M_ 邓紫棋',
+                url: '/bgm/G_E_M_ 邓紫棋 - GLORIA.ogg',
+                cover: '/bgm/GEM.jpg'
+            },
+            {
+                name: 'HELL',
+                artist: 'G_E_M_ 邓紫棋',
+                url: '/bgm/G_E_M_ 邓紫棋 - HELL.ogg',
+                cover: '/bgm/GEM.jpg'
+            },
+            {
+                name: '冰河时代',
+                artist: 'G_E_M_ 邓紫棋',
+                url: '/bgm/G_E_M_ 邓紫棋 - 冰河时代.ogg',
+                cover: '/bgm/GEM.jpg'
+            },
+            {
+                name: '不想回家',
+                artist: 'G_E_M_ 邓紫棋',
+                url: '/bgm/G_E_M_ 邓紫棋 - 不想回家.ogg',
+                cover: '/bgm/GEM.jpg'
+            },
+            {
+                name: '倒流时间',
+                artist: 'G_E_M_ 邓紫棋',
+                url: '/bgm/G_E_M_ 邓紫棋 - 倒流时间.ogg',
+                cover: '/bgm/GEM.jpg'
+            },
+            {
+                name: '老人与海',
+                artist: 'G_E_M_ 邓紫棋',
+                url: '/bgm/G_E_M_ 邓紫棋 - 老人与海.ogg',
+                cover: '/bgm/GEM.jpg'
+            },
+            {
+                name: '离心力',
+                artist: 'G_E_M_ 邓紫棋',
+                url: '/bgm/G_E_M_ 邓紫棋 - 离心力.ogg',
+                cover: '/bgm/GEM.jpg'
+            },
+            {
+                name: '两个自己',
+                artist: 'G_E_M_ 邓紫棋',
+                url: '/bgm/G_E_M_ 邓紫棋 - 两个自己.ogg',
+                cover: '/bgm/GEM.jpg'
+            },
+            {
+                name: '你不是第一个离开的人',
+                artist: 'G_E_M_ 邓紫棋',
+                url: '/bgm/G_E_M_ 邓紫棋 - 你不是第一个离开的人.ogg',
+                cover: '/bgm/GEM.jpg'
+            },
+            {
+                name: '泡沫',
+                artist: 'G_E_M_ 邓紫棋',
+                url: '/bgm/G_E_M_ 邓紫棋 - 泡沫.ogg',
+                cover: '/bgm/GEM.jpg'
+            },
+            {
+                name: '让世界暂停一分钟',
+                artist: 'G_E_M_ 邓紫棋',
+                url: '/bgm/G_E_M_ 邓紫棋 - 让世界暂停一分钟.ogg',
+                cover: '/bgm/GEM.jpg'
+            },
+            {
+                name: '少年与海',
+                artist: 'G_E_M_ 邓紫棋',
+                url: '/bgm/G_E_M_ 邓紫棋 - 少年与海.ogg',
+                cover: '/bgm/GEM.jpg'
+            },
+            {
+                name: '受难曲',
+                artist: 'G_E_M_ 邓紫棋',
+                url: '/bgm/G_E_M_ 邓紫棋 - 受难曲.ogg',
+                cover: '/bgm/GEM.jpg'
+            },
+            {
+                name: '天空没有极限',
+                artist: 'G_E_M_ 邓紫棋',
+                url: '/bgm/G_E_M_ 邓紫棋 - 天空没有极限.ogg',
+                cover: '/bgm/GEM.jpg'
+            },
+            {
+                name: '夜的尽头',
+                artist: 'G_E_M_ 邓紫棋',
+                url: '/bgm/G_E_M_ 邓紫棋 - 夜的尽头.ogg',
+                cover: '/bgm/GEM.jpg'
+            },
+            {
+                name: '只有我和你的地方',
+                artist: 'G_E_M_ 邓紫棋',
+                url: '/bgm/G_E_M_ 邓紫棋 - 只有我和你的地方.ogg',
+                cover: '/bgm/GEM.jpg'
+            },
+            // 林俊杰
+            {
+                name: '江南',
+                artist: '林俊杰',
+                url: '/bgm/林俊杰 - 江南.ogg',
+                cover: '/bgm/JJ.webp'
+            },
+            {
+                name: '我还想她',
+                artist: '林俊杰',
+                url: '/bgm/林俊杰 - 我还想她.ogg',
+                cover: '/bgm/JJ.webp'
+            },
+            {
+                name: '醉赤壁',
+                artist: '林俊杰',
+                url: '/bgm/林俊杰 - 醉赤壁.ogg',
+                cover: '/bgm/JJ.webp'
+            },
+
+        ]
+    }],
 
 ]
