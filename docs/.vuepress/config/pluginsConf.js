@@ -253,7 +253,6 @@ module.exports = [
                 url: '/bgm/林俊杰 - 醉赤壁.ogg',
                 cover: '/bgm/JJ.webp'
             },
-
         ]
     }],
 
